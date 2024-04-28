@@ -5,6 +5,7 @@ Instructions :
 
 1) Copy the 'run_final.bat' & 'final.exe' to the directory where the Resume/CV folder is located.
 2) Rename the folder as 'Sample2', Because the program is hard Coded to find 'Sample2' directory within the Current Working directory.
+3) Run the 'run_final.bat' File. The 'cv_data.xls' file should be created inside the 'Sample2' Folder.
 
 For Windows:
 
