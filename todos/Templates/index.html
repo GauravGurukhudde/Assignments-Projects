@@ -1,0 +1,9 @@
+{% include 'partials/header.html' %}
+<div class="index">
+    <ul>
+        {% for todo in todos %}
+        <li><button type="button" class="backs"><a href = "/todos/details/{{todo.id}}"> {{todo.title}} </button></a> : {{todo.text}} </li><br>
+        {% endfor  %}
+    </ul>
+</div>
+{% include 'partials/footer.html' %}

@@ -1,0 +1,141 @@
+.back, button, input[type="button"], input[type="submit"] { 
+    color:rgb(253, 253, 253); 
+    font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
+    background-color:rgb(50, 156, 222); 
+    border:1px solid; 
+    border-color: #696 #363 #363 #696; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(116, 238, 163); /* Optional: add a subtle shadow */
+} 
+a{
+    color:rgb(253, 253, 253);
+}
+*{
+    box-sizing: border-box;
+}
+
+.admin{
+    position: fixed;
+    top: 10px; /* Adjust the value as needed */
+    right: 100px; /* Adjust the value as needed */
+    font-size:xx-large;
+    color: crimson;
+}  
+
+  /* Style the header */
+header {
+    background: rgba(250, 189, 219, 0.811);
+    padding: 20px 20px;
+    text-align: center;
+    color: rgb(171, 255, 92);
+    border-radius: 25px; /* Rounded corners for the header */
+    margin: 20px auto; /* Center the header and add space around it */
+    max-width: 80%; /* Limit the width of the header */
+    box-shadow: 0 4px 8px rgb(236, 116, 238); /* Optional: add a subtle shadow */
+  }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+div.background {
+    background-image: url('/static/images/background1.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 100%;
+    width: 100%;
+    filter: blur(3px);
+    position: fixed;
+    z-index: -1;
+}
+
+form{
+    text-align: center;
+}
+h1{
+    padding: 10px 20px;
+}
+.content {
+    padding: 80px 80px;  
+}
+section{
+    background: rgba(255, 255, 255, 0.527);
+    border-radius: 25px; /* Rounded corners for the header */
+    margin: 20px auto; /* Center the header and add space around it */
+    max-width: 60%; /* Limit the width of the header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */  
+}
+
+.Title{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 45px;;
+    font-style:normal;
+    font-weight: bolder;
+    color: crimson;
+}
+
+.add{
+    font-family: fantasy;
+    font-size: xx-large;
+    font-weight: normal;
+    color:rgb(50, 156, 222);
+}
+.container{
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+    
+}
+
+.form{
+    background: rgba(250, 189, 219, 0.811);
+    padding: 20px 20px;
+    text-align: center;
+    color: rgb(48, 25, 38);
+    border-radius: 25px; /* Rounded corners for the header */
+    margin: auto auto; /* Center the header and add space around it */
+    max-width: 30%; /* Limit the width of the header */
+    box-shadow: 0 4px 8px rgb(236, 116, 238); /* Optional: add a subtle shadow */
+}
+label[for="title"], label[for="text"]{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(48, 25, 38);
+}
+textarea{
+    position:relative;
+    max-width: 90%;
+    width: 70%;
+}
+
+.index{
+    background: rgba(250, 189, 219, 0.811);
+    padding: 20px 20px;
+    color: rgb(48, 25, 38);
+    border-radius: 25px; /* Rounded corners for the header */
+    margin: auto auto; /* Center the header and add space around it */
+    max-width: 30%; /* Limit the width of the header */
+    box-shadow: 0 4px 8px rgb(236, 116, 238); /* Optional: add a subtle shadow */
+}
+
+.details{
+    background: rgba(250, 189, 219, 0.811);
+    padding: 20px 20px;
+    color: rgb(48, 25, 38);
+    border-radius: 25px; /* Rounded corners for the header */
+    margin: auto auto; /* Center the header and add space around it */
+    max-width: 30%; /* Limit the width of the header */
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(236, 116, 238); /* Optional: add a subtle shadow */
+}
+
+.back{
+    position:relative;
+    
+}
